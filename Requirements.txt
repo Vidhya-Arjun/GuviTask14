@@ -1,3 +1,6 @@
-selenium
 pytest
+pytest-bdd
+selenium
 pytest-html
+allure-python-commons
+allure-pytest-bdd
