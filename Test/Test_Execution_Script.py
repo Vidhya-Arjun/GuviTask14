@@ -15,7 +15,7 @@ def test_valid_login(start_browser):
     home.launch_page()
     print("title launch ", driver.title)
     home.Set_Username("vidhyasarjun@gmail.com")
-    home.Set_Password("hfdgfdkhlkf")
+    home.Set_Password("Guvi!2Plat")
 
 
     cookies = driver.get_cookies()
@@ -55,7 +55,7 @@ def test_submit_button_validation(start_browser):
     home.launch_page()
 
     home.Set_Username("vidhyasarjun@gmail.com")
-    home.Set_Password("dsasgg")
+    home.Set_Password("Guvi!2Plat")
     home.click_login()
 
     # wait = WebDriverWait(driver, 10)
